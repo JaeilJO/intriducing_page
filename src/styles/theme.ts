@@ -1,9 +1,12 @@
 import { DefaultTheme } from 'styled-components';
 
 const color = {
-    BLACK: `#313131`,
+    BLACK_700: `#313131`,
+    BLACK_600: `#404040`,
+    BLACK_500: `##4a4a4a`,
     BLACK_FOCUS: `#656565`,
-    GRAY: `#e2e2e2`,
+    LIGHT_GRAY: `#e2e2e2`,
+
     WHITE: `#FFFFFF`,
 };
 

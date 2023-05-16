@@ -1,6 +1,6 @@
 FROM node:18-alpine
 
-MAINTAINER whwodlf97@gmail.com
+LABEL email="whwodlf97@gmail.com" 
 
 WORKDIR /usr/src/app
 
