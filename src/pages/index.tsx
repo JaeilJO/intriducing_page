@@ -5,7 +5,7 @@ import { Inter } from 'next/font/google';
 export default function Home() {
     return (
         <>
-            <div>Hello</div>
+            <div></div>
         </>
     );
 }
