@@ -9,7 +9,8 @@
         "lint": "next lint",
         "storybook": "storybook dev -p 6006",
         "build-storybook": "storybook build",
-        "test-storybook": "test-storybook"
+        "test-storybook": "test-storybook",
+        "chromatic": "bash scripts/chromatic_publish.sh"
     },
     "dependencies": {
         "@types/node": "20.1.4",
@@ -37,5 +38,7 @@
         "chromatic": "^6.17.4",
         "eslint-plugin-storybook": "^0.6.12",
         "storybook": "^7.0.11"
-    }
+    },
+    "readme": "ERROR: No README data found!",
+    "_id": "introducing_page@0.1.0"
 }
