@@ -1,16 +1,13 @@
+import Link from 'next/link';
 import { styled } from 'styled-components';
 
 const S = {
-    Navigation: styled.nav``,
-    AnchorList: styled.ul`
+    Logo: styled(Link)`
         display: flex;
-        list-style: none;
-        gap: 2em;
         justify-content: center;
-    `,
-    Anchor: styled.li`
+        align-content: center;
         font-size: ${({ theme }) => theme.FONT_SIZE.BODY_WEB};
-        font-weight: ${({ theme }) => theme.FONT_WEIGHT.REGULAR};
+        font-weight: ${({ theme }) => theme.FONT_WEIGHT.BOLD};
         color: ${({ theme }) => theme.COLOR.BLACK};
         &:hover {
             color: ${({ theme }) => theme.COLOR.BLACK_FOCUS};
