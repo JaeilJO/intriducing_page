@@ -19,14 +19,19 @@ const S = {
   AnchorList: styled.ul`
     display: flex;
     list-style: none;
-    gap: 5em;
+    gap: 3em;
     justify-content: flex-end;
     padding: 0;
     height: 100%;
     margin: 0;
     transition: 280ms;
 
-    overflow: hidden;
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    &::-webkit-scrollbar {
+      display: none;
+    }
     @media screen and (max-width: 600px) {
       gap: none;
       border-bottom: 1px solid ${({ theme }) => theme.COLOR.LIGHT_GRAY};
@@ -34,6 +39,9 @@ const S = {
       justify-content: space-around;
       align-items: center;
       background-color: ${({ theme }) => theme.COLOR.BLACK};
+    }
+    @media screen and (max-width: 350px) {
+      justify-content: space-between;
     }
   `,
   Anchor: styled.li`
