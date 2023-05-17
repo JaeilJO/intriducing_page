@@ -9,7 +9,12 @@ const S = {
         justify-content: space-between;
         height: 150px;
         padding: 0 20px;
-        background-color: antiquewhite;
+
+        @media screen and (max-width: 600px) {
+            flex-direction: column;
+            padding: 0;
+            border-bottom: none;
+        }
     `,
 };
 
