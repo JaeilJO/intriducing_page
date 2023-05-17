@@ -20,5 +20,9 @@ export const Default: Story = {
             const logo = await canvas.getByText('<JAEIL_JO/>');
             await expect(logo).toHaveAttribute('href', '/');
         });
+
+        await waitFor(async () => {
+            await expect;
+        });
     },
 };

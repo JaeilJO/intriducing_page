@@ -1,14 +1,5 @@
 import S from './index.styled';
-
-interface NavigationProps {
-    anchors: Anchors[];
-}
-
-interface Anchors {
-    key: number;
-    title: string;
-    target_id: string;
-}
+import { NavigationProps } from './index.types';
 
 const Navigtaion = ({ anchors }: NavigationProps) => {
     return (

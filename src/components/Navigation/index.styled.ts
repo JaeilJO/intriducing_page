@@ -5,7 +5,7 @@ const S = {
     AnchorList: styled.ul`
         display: flex;
         list-style: none;
-        gap: 2em;
+        gap: 5em;
         justify-content: flex-end;
     `,
     Anchor: styled.li`
