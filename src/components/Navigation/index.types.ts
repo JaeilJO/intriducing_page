@@ -1,9 +1,5 @@
-export interface NavigationProps {
-    anchors: Anchors[];
-}
+import { Anchors } from "@/utils/anchors";
 
-export interface Anchors {
-    key: number;
-    title: string;
-    target_id: string;
+export interface NavigationProps {
+  anchors: Anchors[];
 }

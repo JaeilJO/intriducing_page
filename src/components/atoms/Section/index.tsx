@@ -1,11 +1,12 @@
 import S from "./index.styled";
 
 interface SectionProps {
-  children: React.ReactNode;
+  content: React.ReactNode;
+  id: string;
 }
 
-const Section = ({ children }: SectionProps) => {
-  return <S.Section>{children}</S.Section>;
+const Section = ({ content, id }: SectionProps) => {
+  return <S.Section id={id}>{content}</S.Section>;
 };
 
 export default Section;
