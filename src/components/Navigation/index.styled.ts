@@ -6,7 +6,7 @@ const S = {
         display: flex;
         list-style: none;
         gap: 2em;
-        justify-content: center;
+        justify-content: flex-end;
     `,
     Anchor: styled.li`
         font-size: ${({ theme }) => theme.FONT_SIZE.BODY_WEB};
