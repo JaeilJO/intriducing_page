@@ -10,12 +10,17 @@ const color = {
 };
 
 const fontSize = {
+    //Web
+    BIGTITLE_WEB: `9.6rem`,
     TITLE_WEB: `6rem`,
     SUB_TITLE_WEB: `3.6rem`,
     BODY_WEB: `2.5rem`,
+
+    //Tablet
     TITLE_TABLET: `3rem`,
     SUB_TITLE_TABLET: `2.5rem`,
     BODY_TABLET: `1.7rem`,
+    //Mobile
     TITLE_MOBILE: `2rem`,
     SUB_TITLE_MOBILE: `1.7rem`,
     BODY_MOBILE: `1.3rem`,

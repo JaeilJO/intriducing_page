@@ -6,6 +6,7 @@ const S = {
         border-bottom: 1px solid ${({ theme }) => theme.COLOR.LIGHT_GRAY};
         display: flex;
         align-items: center;
+        width: 100%;
         justify-content: space-between;
         height: 150px;
         padding: 0 20px;
