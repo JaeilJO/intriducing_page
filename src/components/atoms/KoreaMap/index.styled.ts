@@ -6,7 +6,7 @@ export const MapPath = styled.path`
     stroke-miterlimit: 10;
     stroke-width: 5px;
     pointer-events: all;
-    cursor: pointer;
+
     transition: 320ms;
 `;
 
